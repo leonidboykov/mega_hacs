@@ -14,10 +14,10 @@ import time
 from homeassistant.components.light import (
     PLATFORM_SCHEMA as LIGHT_SCHEMA,
     LightEntity,
-    SUPPORT_COLOR,
+)
+from homeassistant.components.light.const import (
     ColorMode,
     LightEntityFeature,
-    # SUPPORT_WHITE_VALUE
 )
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.const import (
